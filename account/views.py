@@ -177,5 +177,3 @@ def send_email_view2(request):
         return HttpResponse('Mail Sent')
 
     return render(request, 'Email.html')
-
-def 
